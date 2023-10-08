@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvito Kurnia Fahrio JS</title>
+</head>
+<body>
+    <script>
+        // if, else, nested if
+        let angka = 10;
+
+        if (angka > 5) {
+            console.log("Angka lebih dari 5. //if else");
+        } else {
+            console.log("Angka kurang dari atau sama dengan 5. //if else");
+        }
+
+        if (angka > 5) {
+            if (angka < 15) {
+                console.log("Angka di antara 5 dan 15. //nested if"); 
+            } else {
+                console.log("Angka lebih dari atau sama dengan 15. //nested if");
+            }
+        }
+
+        // switch case
+        let day = "Senin";
+
+        switch (day) {
+            case "Sabtu":
+                console.log("Ini adalah Weekend.");
+                break;
+            case "Minggu":
+                console.log("Ini adalah Weekend.");
+                break;
+            default:
+                console.log("Ini adalah Weekday. //switch");
+        }
+
+        // for statement
+        for (let i = 0; i < 4; i++) {
+            console.log("for looping ke-" + (i + 1));
+        }
+
+        // while loop
+        let Angka = 0;
+        while (Angka < 3) {
+            console.log("while loop ke-" + (Angka + 1));
+            Angka++;
+        }
+
+        // do while loop
+        let Iterasi = 0;
+        do {
+            console.log("DoWhile loop ke-" + (Iterasi + 1));
+            Iterasi++;
+        } while (Iterasi < 3);
+
+        // function
+        function sapaan(name) {
+            console.log("Hello, " + name + "! //function");
+        }
+
+        sapaan("Alvito Kurnia");
+    </script>
+</body>
+</html>
